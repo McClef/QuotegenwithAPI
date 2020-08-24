@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- logo icon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Optional fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Email optional fontawesome embeded cdn -->
+    <!-- <script src="https://use.fontawesome.com/bd554d1c5e.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Quote Generator</title>
+</head>
+<body>
+   <div class="quote-container" id="quote-container">
+       <!-- Quote -->
+        <div class="quote-text">
+            <i class="fa fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i class="fa fa-twitter"></i>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+   </div>
+   <!-- Loader -->
+   <div class="loader" id="loader"></div>
+
+   <!-- Script -->
+   <script src="script.js"></script>
+</body>
+</html>
